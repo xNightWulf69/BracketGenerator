@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Tournament Control Panel</title>
+    <link rel="icon" type="image/png" href="Assets/icon.png">
+    <link rel="stylesheet" href="Assets/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Tournament Control Panel</h1>
+        <p>Manage Swiss System, Double Elimination, and Single Elimination tournaments</p>
+      </div>
+      <div class="tabs">
+        <button class="tab-button active" onclick="switchTab('swiss')">Swiss System (16 Teams)</button>
+        <button class="tab-button" onclick="switchTab('double')">Double Elimination (Qualified Teams)</button>
+        <button class="tab-button" onclick="switchTab('single')">Single Elimination (8 Teams)</button>
+        <button class="tab-button" onclick="switchTab('settings')">Settings</button>
+      </div>
+      <div id="bracket-selector">
+        <input type="checkbox" id="swiss" name="bracket" value="swiss">
+        <label for="swiss">Swiss</label>
+        <input type="checkbox" id="double" name="bracket" value="double">
+        <label for="double">Double Elimination</label>
+        <input type="checkbox" id="single" name="bracket" value="single">
+        <label for="single">Single Elimination</label>
+        <input type="checkbox" id="none" name="bracket" value="none">
+        <label for="none">Show none</label>
+      </div>
+      <div class="tab-content active" id="swiss-tab">
+        <div class="swiss-info">
+          <h3>Swiss System Tournament</h3>
+          <p>Teams advance based on wins/losses. Set matchups and select winners for each round!</p>
+          <p>
+            <strong>Status:</strong>
+            <span id="swiss-status">Ready to start</span>
+          </p>
+        </div>
+        <div class="rounds-container">
+          <div class="round-section">
+            <div class="round-title round-0-0">
+              <span></span> Round 0-0
+            </div>
+            <div class="record-indicator">8 Games - Initial Round</div>
+            <div id="round-0-0-matches"></div>
+          </div>
+          <div class="round-section">
+            <div class="round-title round-1-0">
+              <span></span> Round 1-0
+            </div>
+            <div class="record-indicator">4 Games - Winners from 0-0</div>
+            <div id="round-1-0-matches"></div>
+          </div>
+          <div class="round-section">
+            <div class="round-title round-0-1">
+              <span></span> Round 0-1
+            </div>
+            <div class="record-indicator">4 Games - Losers from 0-0</div>
+            <div id="round-0-1-matches"></div>
+          </div>
+          <div class="round-section">
+            <div class="round-title round-2-0">
+              <span></span> Round 2-0
+            </div>
+            <div class="record-indicator">2 Games - Winners from 1-0</div>
+            <div id="round-2-0-matches"></div>
+          </div>
+          <div class="round-section">
+            <div class="round-title round-1-1">
+              <span></span> Round 1-1
+            </div>
+            <div class="record-indicator">4 Games - Mixed from 1-0 losers & 0-1 winners</div>
+            <div id="round-1-1-matches"></div>
+          </div>
+          <div class="round-section">
+            <div class="round-title round-0-2">
+              <span></span> Round 0-2
+            </div>
+            <div class="record-indicator">2 Games - Losers from 0-1</div>
+            <div id="round-0-2-matches"></div>
+          </div>
+          <div class="round-section">
+            <div class="round-title round-2-1">
+              <span></span> Round 2-1
+            </div>
+            <div class="record-indicator">3 Games - Mixed from 2-0 losers & 1-1 winners</div>
+            <div id="round-2-1-matches"></div>
+          </div>
+          <div class="round-section">
+            <div class="round-title round-1-2">
+              <span></span> Round 1-2
+            </div>
+            <div class="record-indicator">3 Games - Mixed from 1-1 losers & 0-2 winners</div>
+            <div id="round-1-2-matches"></div>
+          </div>
+          <div class="round-section">
+            <div class="round-title round-2-2">
+              <span></span> Round 2-2
+            </div>
+            <div class="record-indicator">3 Games - Final matches</div>
+            <div id="round-2-2-matches"></div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-content" id="double-tab">
+        <div style="background: linear-gradient(135deg, #ed8f00, #ffcc00); color: white; padding: 16px; border-radius: 10px; margin-bottom: 16px; text-align: center;">
+          <h3>Double Elimination (Groups A & B)</h3>
+          <p>8 teams per group. 4 qualify from each group (2 via Upper SF winners, 2 via Lower SF winners).</p>
+          <p>
+            <strong>Total Qualified:</strong>
+            <span id="qualified-count">0</span> / 8
+          </p>
+        </div>
+        <div class="double-grid">
+          <div class="double-col">
+            <div class="round-title">UPPER QUARTERFINALS (BO5)</div>
+            <div class="round-matches" id="A-UQ"></div>
+          </div>
+          <div class="double-col">
+            <div class="round-title">UPPER SEMIFINALS (BO5)</div>
+            <div class="round-matches" id="A-US"></div>
+          </div>
+          <div class="double-col">
+            <div class="round-title">QUALIFIED</div>
+            <div class="round-matches" id="A-Q"></div>
+          </div>
+          <div class="double-col">
+            <div class="round-title">UPPER QUARTERFINALS (BO5)</div>
+            <div class="round-matches" id="B-UQ"></div>
+          </div>
+          <div class="double-col">
+            <div class="round-title">UPPER SEMIFINALS (BO5)</div>
+            <div class="round-matches" id="B-US"></div>
+          </div>
+          <div class="double-col">
+            <div class="round-title">QUALIFIED</div>
+            <div class="round-matches" id="B-Q"></div>
+          </div>
+          <div class="double-col">
+            <div class="round-title">LOWER QUARTERFINALS (BO5)</div>
+            <div class="round-matches" id="A-LQ"></div>
+          </div>
+          <div class="double-col">
+            <div class="round-title">LOWER SEMIFINALS (BO5)</div>
+            <div class="round-matches" id="A-LS"></div>
+          </div>
+          <div class="double-col">
+            <div class="round-title">QUALIFIED</div>
+            <div class="round-matches" id="A-LQF"></div>
+          </div>
+          <div class="double-col">
+            <div class="round-title">LOWER QUARTERFINALS (BO5)</div>
+            <div class="round-matches" id="B-LQ"></div>
+          </div>
+          <div class="double-col">
+            <div class="round-title">LOWER SEMIFINALS (BO5)</div>
+            <div class="round-matches" id="B-LS"></div>
+          </div>
+          <div class="double-col">
+            <div class="round-title">QUALIFIED</div>
+            <div class="round-matches" id="B-LQF"></div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-content" id="single-tab">
+        <div style="background: linear-gradient(135deg, #e53e3e, #c53030); color: white; padding: 15px; border-radius: 10px; margin-bottom: 30px; text-align: center;">
+          <h3>Single Elimination Tournament</h3>
+          <p>One loss and you're out - classic knockout tournament!</p>
+          <p>Manually select 8 teams for the quarterfinals</p>
+        </div>
+        <div class="single-grid">
+          <div class="single-col">
+            <div class="round-title">QUARTERFINALS (BO5)</div>
+            <div class="round-matches" id="single-quarterfinals"></div>
+          </div>
+          <div class="single-col">
+            <div class="round-title">SEMIFINALS (BO5)</div>
+            <div class="round-matches" id="single-semifinals"></div>
+          </div>
+          <div class="single-col">
+            <div class="round-title">FINAL (BO7)</div>
+            <div class="round-matches" id="single-final"></div>
+          </div>
+          <div class="single-col">
+            <div class="round-title">CHAMPION</div>
+            <div class="round-matches" id="single-champion"></div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-content" id="settings-tab">
+        <div style="background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 15px; border-radius: 10px; margin-bottom: 30px; text-align: center;">
+          <h3>Tournament Settings</h3>
+          <p>Customize your tournament appearance and manage teams</p>
+        </div>
+        <div class="team-management">
+          <h2 style="margin-bottom: 20px; color: #2d3748;">Team Management</h2>
+          <div class="add-team-form">
+            <div class="form-group">
+              <label class="form-label">Team Name</label>
+              <input class="add-team-input" id="newTeamName" placeholder="Enter team name..." type="text" />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Team Logo</label>
+              <div class="logo-upload">
+                <input accept="image/*" id="logoUpload" onchange="previewLogo(this)" type="file" />
+                <div class="logo-upload-button" id="logoUploadButton">
+                  <span>📷</span>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <button class="btn btn-primary" onclick="addTeam()">Add Team</button>
+            </div>
+          </div>
+          <div class="team-list" id="teamList"></div>
+        </div>
+        <div class="team-management">
+          <h2 style="margin-bottom: 30px; color: #2d3748;">Tournament Branding</h2>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
+            <div class="form-group">
+              <label class="form-label">Tournament Background Image</label>
+              <div class="logo-upload">
+                <input accept="image/*" id="headerImageUpload" type="file" />
+                <div class="logo-upload-button" style="width: 200px; height: 100px; border-radius: 10px;">
+                  <span style="font-size: 2rem;">🖼️</span>
+                </div>
+              </div>
+              <p style="font-size: 0.9rem; color: #718096; margin-top: 5px;">Upload a backgound image for the tournament bracket</p>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Tournament Title Top Text</label>
+              <input class="add-team-input" id="tournamentTitleTop" placeholder="Enter tournament top text..." type="text" value="" />
+              <p style="font-size: 0.9rem; color: #718096; margin-top: 5px;">Customize the main tournament title upper text</p>
+              <label class="form-label">Tournament Title Bottom Text</label>
+              <input class="add-team-input" id="tournamentTitleBottom" placeholder="Enter tournament bottom text..." type="text" value="" />
+              <p style="font-size: 0.9rem; color: #718096; margin-top: 5px;">Customize the main tournament title lower text</p>
+            </div>
+          </div>
+          <div style="margin-top: 30px;">
+            <h3 style="margin-bottom: 20px; color: #2d3748;">Appearance Settings</h3>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
+              <div class="form-group">
+                <label class="form-label">Top Text Colour</label>
+                <input type="color" id="headerTextColor" value="#ffffff" style="width: 100%; height: 50px; border: 2px solid #e2e8f0; border-radius: 8px; cursor: pointer;" />
+              </div>
+              <div class="form-group">
+                <label class="form-label">Bottom Text Colour</label>
+                <input type="color" id="primaryColor" value="#dcc776" style="width: 100%; height: 50px; border: 2px solid #e2e8f0; border-radius: 8px; cursor: pointer;" />
+              </div>
+            </div>
+            <div style="margin-top: 40px; text-align: center;">
+              <button class="btn btn-success" onclick="applySettings()">Apply Settings</button>
+              <button class="btn btn-primary" onclick="resetSettings()">Reset to Default</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="controls">
+      <button class="btn btn-success" onclick="saveProgress()">Update Bracket</button>
+      <input accept=".json" id="loadProgress" onchange="loadProgress(event)" style="display: none;" type="file" />
+      <button class="btn btn-primary" onclick="document.getElementById('loadProgress').click()">Load Progress</button>
+      <button class="btn btn-danger" onclick="resetCurrentTournament()">Reset Tournament</button>
+    </div>
+    <div class="modal" id="scoreModal">
+      <div class="modal-content">
+        <h3>Enter Match Score</h3>
+        <div id="modal-teams"></div>
+        <div class="score-inputs">
+          <input id="score1" min="0" placeholder="0" type="number" />
+          <span>-</span>
+          <input id="score2" min="0" placeholder="0" type="number" />
+        </div>
+        <button class="btn btn-success" onclick="submitScore()">Submit Score</button>
+        <button class="btn btn-danger" onclick="closeModal()">Cancel</button>
+      </div>
+    </div>
+    <div id="toast-container"></div>
+    <script src="Assets/script.js"></script>
+  </body>
+</html>

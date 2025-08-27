@@ -1,0 +1,355 @@
+{
+  "teams": [
+    {
+      "name": "Exiled Kingz",
+      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAAX9JREFUeF7t2jGuAVEcRvG/jYgdKDQ2YQOWorQNpVal1ehJdJJJJBZARUEiGUJnVNcRdyY5r57zkvndj+Hltfrz2T38+VqgJeDXdq9QQOYnIPQTUEAqAHvfAwWEAjB3gQJCAZi7QAGhAMxdoIBQAOYuUEAoAHMXKCAUgLkLFBAKwNwFCggFYO4CBYQCMHeBAkIBmLtAAaEAzF1gkwFH3V4M2h10C/vzKYbLBfodJM66QAHJ0UWEgALm/eei6gJvZRnTXRGTYguP5n95rd4DBUw8eBeYCFa9XEAB6/UQST2Pw/US480q1sdDavqz62v1EEm9KwHhVzkBBUx90b1f71OY+X18F/aDdCKoC0wE84M0BBNQwA+BRn+Qft5N7gePgPBVJaCAef+KnXWB8PBrkQsIj0FAAaEAzF2ggFAA5i5QQCgAcxcoIBSAuQsUEArA3AUKCAVg7gIFhAIwd4ECQgGYu0ABoQDMXaCAUADmLlBAKABzFyggFIC5CxQQCsD8Ab8XkfD3HAU0AAAAAElFTkSuQmCC",
+      "wins": 0,
+      "losses": 0
+    },
+    {
+      "name": "Dahlia Blossoms",
+      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAAuxJREFUeF7t2j1oE3EABfB3TS4xsbGDKASFUMWhKlLUqqAQB8VFHRTpILiIDuokdVdEQUUnRdCtoChIB8UP0A6KDvUDoeLgIFqli9oGNLl8XD7kgrRJSMklT5oLvJvCHY/kfrz7/+9/F2PqwqYStLUsYAiwZbtyUICcnwBJPwEKkBUg8xoDBUgKkHE1UICkABlXAwVICpBxNVCApAAZVwMFSAqQcTVQgKQAGVcDBUgKkHE1UICkABlXAwVICpBxNVCApAAZVwMFSAqQcTWwUwFD244itPkQ4DMbn0KpiJKdRvHPD9ifXyHz7m75sxe2tjWwKcAaqaKVQGZsGJk3t9tu2JGAjlopn0N2/D6sZ5faitixgGVEO430i+vlS7pdm6cAnUalnpyrsjBjG+GPrkGgbxd8S1Y4/8irOl5IfEdy5BQKU1/aYuh5wEqVcPwEghsGYfgDs7uL+fJYaD2/JsB6DaxViey/AnPl1qrd+clx/L51RIBuABesP4BQ/DgMMzQDVkz+ROrhadgTb+cdsaMuYUfHv7wf3XvOoiuydAarlLNgPb2I7MfHAqydROqJ9By+A9/i3tlDBRvpsWGkX94QoBvARQdvwr9snQBrl3JuxkBHLTJ4FWZsQICtAqqBAOqthd02UGMgAeiPrkb33vPo6olWzMJpWKOXkf3wQJNIo0kkuHY3wjtOwggsrLgP/IXUozOwv74WYCNA5x4w0Lezak2slci/3jQaA4P9+xCOH4MRjGgt7HYScVYcZu8WBFZthz82UP0gAUBhegLJkSEUpr/N++XrfKGnlnLNCuh5oNt3InVk9US6mZdKNYB6JzLHfeCcl7DzVi6XQiExidynUWTf34PzBMYLW9vGQC+c/P/4DQIkFQUoQFKAjKuBAiQFyLgaKEBSgIyrgQIkBci4GihAUoCMq4ECJAXIuBooQFKAjKuBAiQFyLgaKEBSgIyrgQIkBci4GihAUoCMq4ECJAXIuBooQFKAjP8FCzoB3xvKfN4AAAAASUVORK5CYII=",
+      "wins": 0,
+      "losses": 0
+    },
+    {
+      "name": "Torrent Zero",
+      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAAWdJREFUeF7t2iFKBGEAhuF/UXBR72I1mCwGYbsX8Bhexy4YLCaD1WuYVVZQVtBiMswr7C48299l5vk/Jgwzu7x6Xg2/yQIzgJPtvkOAzQ9g9AMIsArE3jMQYBSIuQUCjAIxt0CAUSDmFggwCsTcAgFGgZhbIMAoEHMLBBgFYm6BAKNAzC0QYBSIuQUCjAIxt0CAUSDmFrjNgMdH83Fxfjjme7N0G8v31bi+fRmPT8v0P1PitS4Q4JQj+9UABLi5HxctTg/G2cn+2N35OaWPzzHuHt7Gzf1rPLb/zdf6DPzrVgDGgwYIMArE3AIBRoGYWyDAKBBzCwQYBWJugQCjQMwtEGAUiLkFAowCMbdAgFEg5hYYAbcl39hX+gC3RSBepwUCjAIxt0CAUSDmFggwCsTcAgFGgZhbIMAoEHMLBBgFYm6BAKNAzC0QYBSIuQUCjAIxt0CAUSDmFggwCsTcAgFGgZhbYAT8Aku3nHC4m7j0AAAAAElFTkSuQmCC",
+      "wins": 0,
+      "losses": 0
+    },
+    {
+      "name": "AbyssRL",
+      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAA8NJREFUeF7t2T9IG2EYBvDnNCaxMdVISgfRTUERBxdRwamLgwgdCgVBnARFEQe1dVHBf4MiBEFxKIIgOIhioYtIFykuHYq4OAhKB20wVRtj0jRXcqIh8axNnsO7ljej3vPB+/O53HefyteGBhXyyVhAEcCM7bSgAHJ+Akj6CaAAsgJkXr4DBZAUIOPSQAEkBci4NFAASQEyLg0UQFKAjEsDBZAUIOPSQAEkBci4NFAASQEyLg0UQFKAjEsDBZAUIOPSQAEkBci4NFAASQEyLg383wDzXr+Gu60NisORNJoaieBicRE/lpbIkY2NW66BhRMTcNbW6k4Z+fIF/q4uYwXI1SwF6KiuRsHgILK9Xt2xYoEAAuPjCO/skGMbF7cU4NP2drhevYJis+lPGIshuL6Os5kZ4wTIlSwF+GxhATllZbcj/To5gZKbiyy3+/ZnP/f34e/uhnp5SY5uTNwygLkvXiC/pyeBFW/b+/ewl5cjp7T0dlo1GMSZz4fLDx+MESBXsQxgQX8/njQ2AoqijRS7uNBuVXtVFVxNTUBW1vWoqorQ1hYCIyPk6MbELQFoKy5G4dgYbCUld25VZ11dcjMBRA8Pcfr2LaJHR8YoEKtYAtD18iXiDxDF6bweJeVhkfrdqIbDuHj3Dj+Wl4nRjYlaAjB17xc7P8fZ1BRCHz9qU8a/G13NzYnbGMDVp084HRgwRoFYxXRAvb1fZHcX/s7O27Hit3FBXx+yPJ7EE9rvx/fRUYQ/fybG56OmA6bu/dRoFMGVFZzPzydN552dhb2yMvE0vuc6niS9FUwHTIW5721Db5Od2tT0RjfmalMB7+z9ANz3vuuoqYHnzZuk2/hmqxPa3DRGI4NVTAXM7+1N3uOlO0D8ab2xgbPp6XSThl1vGqDe3i+TqaIHB/jW0WHaq51pgHf2fpnoxV9MQiGcz80huLaW4QpczDTAP537pTuS9mo3PJxuzJDrTQG0V1TAMzSE7OfPE/u642MEhoYQ2dv742B5LS1wt7ZCsdvTzhoilrKIKYB6W5Kr7W3t/fahjx6+mcf9pgB6fT7tlOXmo15daRvn4OrqQ37a7+MHD876+qRrzTruf3RAvb1fuqcrev94Muu4/9EB7+z9Mjjf07ZAk5OwFRUlWmjScf+jA/7VPfoPXSSA5B9LAAWQFCDj0kABJAXIuDRQAEkBMi4NFEBSgIxLAwWQFCDj0kABJAXIuDRQAEkBMi4NFEBSgIxLAwWQFCDj0kABJAXIuDRQAEkBMi4NFEBSgIxLAwWQFCDjvwH6mOZgGxpO5AAAAABJRU5ErkJggg==",
+      "wins": 0,
+      "losses": 0
+    },
+    {
+      "name": "Placeholder",
+      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAAm5JREFUeF7t109LFHEAxvFnhUlSg4TOCetR6WQe8g2UB6+9Bw++gc5SEXgQiahbqEigh/CQYkj4B3RJIwTpkiIIEYrVsrPzZ2d/MYLIFrrOPDM4A49X5zvO78PjjhaOn/cb6Cu2QEGAse1OQwFyfgIk/QQoQFaA7PUZKEBSgMy1QAGSAmSuBQqQFCBzLVCApACZa4ECJAXIXAsUIClA5lqgAEkBMtcCBUgKkLkWKEBSgMy1QAGSAmSuBQqQFCBzLTDPgO0Pn6D13tDVjmDqML4L4/yGv78JpzSN4Hjvam2KV13rAiMB/oNQt09QXXsDd3s2RZ7mt84tYHg045Zhf3oJ98tc85OmdEWuAUOT2o9dlGeGYTw7JaLLb5stwMBHdeMtqquvG57a6uqDVRzAjZ5HaGnrbPie8Sqwl8bg7swLEBcAnslYxQcIPzdbOu6cY9UDOJ9nYC+PC7AZYCh06/EErK77DVju1/eofBgVoAAjbuC/P2Pi/AqHzeYkqiuvIv70ZC7Px0ukewDW3T609g6icPN240vE+YPKwjN43z4mIxLxLtkCjPjwgDn9r6T8biRymVSQa8B6+ScqC0/hf19PyiPyfXIKaBAc7cFeegH/YCvyoZMMcgNoai5Q8xD8OoS3uwinNJWkQ+x7ZQuwyVs49ilTDAVI4gpQgKQAmWuBAiQFyFwLFCApQOZaYJ4ByWfPRH6tC8yEAPkQAhQgKUDmWqAASQEy1wIFSAqQuRYoQFKAzLVAAZICZK4FCpAUIHMtUICkAJlrgQIkBchcCxQgKUDmWqAASQEy1wIFSAqQuRYoQFKAzLVAAZICZP4XMaHP0BuMkiMAAAAASUVORK5CYII=",
+      "wins": 0,
+      "losses": 0
+    },
+    {
+      "name": "Team Echelon",
+      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAAWdJREFUeF7t2iFKBGEAhuF/UXBR72I1mCwGYbsX8Bhexy4YLCaD1WuYVVZQVtBiMswr7C48299l5vk/Jgwzu7x6Xg2/yQIzgJPtvkOAzQ9g9AMIsArE3jMQYBSIuQUCjAIxt0CAUSDmFggwCsTcAgFGgZhbIMAoEHMLBBgFYm6BAKNAzC0QYBSIuQUCjAIxt0CAUSDmFrjNgMdH83Fxfjjme7N0G8v31bi+fRmPT8v0P1PitS4Q4JQj+9UABLi5HxctTg/G2cn+2N35OaWPzzHuHt7Gzf1rPLb/zdf6DPzrVgDGgwYIMArE3AIBRoGYWyDAKBBzCwQYBWJugQCjQMwtEGAUiLkFAowCMbdAgFEg5hYYAbcl39hX+gC3RSBepwUCjAIxt0CAUSDmFggwCsTcAgFGgZhbIMAoEHMLBBgFYm6BAKNAzC0QYBSIuQUCjAIxt0CAUSDmFggwCsTcAgFGgZhbYAT8Aku3nHC4m7j0AAAAAElFTkSuQmCC",
+      "wins": 0,
+      "losses": 0
+    },
+    {
+      "name": "Iconic",
+      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAATVJREFUeF7t2a0NwlAARtF2DUZAswN4FkGyD44VqhgEwR78JQgG6EUAOfU36Tv98kzHzbR/DJ7ZAiPA2XavEGDzAxj9AAKsArF3BwKMAjG3QIBRIOYWCDAKxNwCAUaBmFsgwCgQcwsEGAViboEAo0DMLRBgFIi5BQKMAjG3QIBRIOYWCDAKxNwC/xFwt9wO68XqfbTr/TYcL6fhcJ7icT+ff+UCAcYPDRBgFIi5BQKMAjG3QIBRIOYWCDAKxNwCAUaBmFsgwCgQcwsEGAViboEAo0DMLRBgFIi5BQKMAjG3wAj4S/lX/tYE+EsC8V0tEGAUiLkFAowCMbdAgFEg5hYIMArE3AIBRoGYWyDAKBBzCwQYBWJugQCjQMwtEGAUiLkFAowCMbdAgFEg5hYIMArE3AIj4BPBDZWAt+kCbwAAAABJRU5ErkJggg==",
+      "wins": 0,
+      "losses": 0
+    },
+    {
+      "name": "Bonne Nuit",
+      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAAyJJREFUeF7t2s1LVFEABfAzfsyMmUiLFi5ykUgWEiW6qhAiaFXRuqhdtApaB/0FrYK2WSFii9Iks0AsyqIMCtNAy5IyMgrK+XA+n+/FHVOa0JyZM/bm0Zn1PW/m/jj3zn1vxnfq/FcHehUs4BNgwXaZoAA5PwGSfgIUICtA5rUHCpAUIONqoABJATKuBgqQFCDjaqAASQEyrgYKkBQg42qgAEkBMq4GCpAUIONqoABJATKuBgqQFCDjaqAASQEyrgYKkBQg42qgVwEP76/Gwb0bUFGe2wwcB0hbDhJJB5PTaQw9jeP9p3Ru4XUc5VoD8wX80yAWd3B3OIZ7w7F15Fn70p4FNFOLJRz0DM7j4fP42jNdpxGeBjQmM7MWLnTMZZa2G6+SAnz8IoFrtyIrOjQ3+rGvNYjmxkDWvhlPOOjqj2DkVdINP/f+nbXSHvg3wCWdsydr0bTVv4xlLSCzD/YNzQswF8ATR2qwpyW4jJVMLe6D95+5sw96ZgkbsWDAhzPHa9FQX7kMOBe20XEzjIlpd440ngA0cLu3BzLNa9hSibKyRT9zNhwZS+LyjbAry9e8aUkB5qNg8D58tnClJ4zZbwv5RIs61pOAluVgfCqF7v4ofoTtooLkezFPAi4t35kvFnoH5/F6KpXvvIs23rOASwKmgZ19EYy/dQexpABXO8aYL5EdDX7s3ObHrqYAqoK+rAa9+5jGxc6QK3cjngD8Xau9rQpHD1RnIZrbuOsDUTx5mSja0sz1Qp4DNBM7d3oT6usqSuJuRIC5Vm2VcZ4DNAfqY4c2oqb612kagDnWDDyK4faDf/9s0DOAdZvL0docRHtbMAvPFCMctXG1151v4pICLGQ1mTuSsTcpXOoKFRKnM54H1Dkwxx+VVqrK95CN7jtRjE648zDVcw8TbBtIpR2EIjZGJ5OZX+b+23thevMpkQu4tgeWyPzpjyFAklCAAiQFyLgaKEBSgIyrgQIkBci4GihAUoCMq4ECJAXIuBooQFKAjKuBAiQFyLgaKEBSgIyrgQIkBci4GihAUoCMq4ECJAXIuBooQFKAjKuBJOBPN60Df2/5jFEAAAAASUVORK5CYII=",
+      "wins": 0,
+      "losses": 0
+    },
+    {
+      "name": "A.D.A",
+      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAA8NJREFUeF7t2T9IG2EYBvDnNCaxMdVISgfRTUERBxdRwamLgwgdCgVBnARFEQe1dVHBf4MiBEFxKIIgOIhioYtIFykuHYq4OAhKB20wVRtj0jRXcqIh8axNnsO7ljej3vPB+/O53HefyteGBhXyyVhAEcCM7bSgAHJ+Akj6CaAAsgJkXr4DBZAUIOPSQAEkBci4NFAASQEyLg0UQFKAjEsDBZAUIOPSQAEkBci4NFAASQEyLg0UQFKAjEsDBZAUIOPSQAEkBci4NFAASQEyLg383wDzXr+Gu60NisORNJoaieBicRE/lpbIkY2NW66BhRMTcNbW6k4Z+fIF/q4uYwXI1SwF6KiuRsHgILK9Xt2xYoEAAuPjCO/skGMbF7cU4NP2drhevYJis+lPGIshuL6Os5kZ4wTIlSwF+GxhATllZbcj/To5gZKbiyy3+/ZnP/f34e/uhnp5SY5uTNwygLkvXiC/pyeBFW/b+/ewl5cjp7T0dlo1GMSZz4fLDx+MESBXsQxgQX8/njQ2AoqijRS7uNBuVXtVFVxNTUBW1vWoqorQ1hYCIyPk6MbELQFoKy5G4dgYbCUld25VZ11dcjMBRA8Pcfr2LaJHR8YoEKtYAtD18iXiDxDF6bweJeVhkfrdqIbDuHj3Dj+Wl4nRjYlaAjB17xc7P8fZ1BRCHz9qU8a/G13NzYnbGMDVp084HRgwRoFYxXRAvb1fZHcX/s7O27Hit3FBXx+yPJ7EE9rvx/fRUYQ/fybG56OmA6bu/dRoFMGVFZzPzydN552dhb2yMvE0vuc6niS9FUwHTIW5721Db5Od2tT0RjfmalMB7+z9ANz3vuuoqYHnzZuk2/hmqxPa3DRGI4NVTAXM7+1N3uOlO0D8ab2xgbPp6XSThl1vGqDe3i+TqaIHB/jW0WHaq51pgHf2fpnoxV9MQiGcz80huLaW4QpczDTAP537pTuS9mo3PJxuzJDrTQG0V1TAMzSE7OfPE/u642MEhoYQ2dv742B5LS1wt7ZCsdvTzhoilrKIKYB6W5Kr7W3t/fahjx6+mcf9pgB6fT7tlOXmo15daRvn4OrqQ37a7+MHD876+qRrzTruf3RAvb1fuqcrev94Muu4/9EB7+z9Mjjf07ZAk5OwFRUlWmjScf+jA/7VPfoPXSSA5B9LAAWQFCDj0kABJAXIuDRQAEkBMi4NFEBSgIxLAwWQFCDj0kABJAXIuDRQAEkBMi4NFEBSgIxLAwWQFCDj0kABJAXIuDRQAEkBMi4NFEBSgIxLAwWQFCDjvwH6mOZgGxpO5AAAAABJRU5ErkJggg==",
+      "wins": 0,
+      "losses": 0
+    },
+    {
+      "name": "Red 3!",
+      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAA2pJREFUeF7t20tIVFEcBvDPGu2hDpQaZBplL2yCit4Y9KBVZBSJUbQMWkVEm5atok0tqkWPjUSLAa3EQAoStSwTSrEUEpRQJzVHJx1f44wzt+7UUHcYZbr/ce698N31/e5wfnznnjNnNOXa2XYFvHQLpBBQt104SECZHwGFfgQkoFRAmOc7kIBCAWGcDSSgUEAYZwMJKBQQxtlAAgoFhHE2kIBCAWGcDSSgUEAYZwMJKBQQxtlAAgoFhHE2kIBCAWGcDSSgUEAYZwMJKBQQxtlAqwIeKslBUXE2FtpS4huCAgQCIQSmFQz1TaP1zSiaa3/El53Huwxr4H8DRiEoIaCzdRwVd13w+0LzSDT3oy0LGB6WArQ3eVFxx0VAvQK+iSCqywbw+d2o3keIcqZqYEvdCKoe9sUcUG7BEhQdy8KmHZna96YCtLweQdWD2DmRThxhywBGxlJyMQ+OPfZff9n4d3Rf2yfw6Hp3HMNN/C2WA4y1+BDwTzHmmsKR7pReykPhbrumSh3NY3De7E18veJ4oiUaaF+eijWbl6Jwlx0btmVo3oGhoILG6mG8cg7GMdzE32IqQD3D+97jQ/ltF4b7/Xri4oylAb2eQHgL0/FxTAyh9wGWBAzOKOj+Mona8kG4Oqf0jj0hOUsBqpvm9y88UBcbtX1muEwFGFmFc1YtgmOvHTuPLEO63aZxmhoPov6pG00vPWbwM+7fHGLt56K3Meu3ZqD4/Eqoq/C/l28yiBrnID7U8DRGsyWJtQ/cfzwbB07mwJamPfbyDgdQeb8P6ibayMuUUzga5MyVfGzcnqn5+qaexHS1jePxjR4j/cw9hSMyax3pOHEhF/Ys7VSe8Suof+ZGQ9WQYYiWaKCqc7h0BfYdzYItVTuVPQN+OG/1wv1t2hBEywCmLV6A05fzUeBI10xlRQE+NYyg8h6Ps8L7u9nOA9V6zTaV1a1NdVk/2hq9SW+hZRoYkTl46vePUdFTWV2N1amc7N9HLAeoQp67uhrrtmRopvJMQMHb50Ooe+JOagsNA0zqKOfxwwgoxCUgAYUCwjgbSEChgDDOBhJQKCCMs4EEFAoI42wgAYUCwjgbSEChgDDOBhJQKCCMs4EEFAoI42wgAYUCwjgbSEChgDDOBhJQKCCMs4EEFAoI42wgAYUCwvhPUgX+wCQ/+jcAAAAASUVORK5CYII=",
+      "wins": 0,
+      "losses": 0
+    },
+    {
+      "name": "Mizzou Club Gold",
+      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAA/pJREFUeF7t2U1IFGEcBvBn1l33w/IrBSEM6pBe05uCSESkFyE6dQmFEAyiVBQUEg8KCkYQCBIkEdQlgg6hJxEiO0SeBKVDLUFRqfm9zn45Me+6087ubJB/CGSePe2OPrD722fe+c+72temJgN8HFlAI+CR7VSQgDI/Agr9CEhAqYAwzzWQgEIBYZwNJKBQQBhnAwkoFBDG2UACCgWEcTaQgEIBYZwNJKBQQBhnAwkoFBDG2UACCgWEcTaQgEIBYZwNJKBQQBhnAwkoFBDG2cDjBniyowMnrl+H5vPlvHVjbw9bDx8iMjOT92Odun8f/vp6x78nwmH8vHFDSPJv8f/ewL8B4uAAe69eYevBA8dP4autRfnwMAqqqgjo1EBTJba0hLVbtxyBiq5eRXFnJ7RAgID5AJNra9gcGUF0cTEHqezePQQvXgQ0jYD5AI1oFDvT09h9/tyGpIVCqJychPfs2byLlGvXQBMNBQXQvF6Fsz83h43hYRtUsLkZJT098BQXq+PG/j60YND2P64FTH77BhQWoqCiQoEkPn/GalcXjEjEAiru6sKJa9cUNAwDseVlFNbUpF4fPlwLaH5wIxaD7/x5RXGwvY2tiQnsz89bOJnji6Hr0N+8QaC52TYOuRowtrKC0JUrKbBkErsvXmB7clK9zB5fzAuNPj+PUFsbAdUpGw4jMjuLk+3t0Px+hRb98AHr3d3qefb4Ev/4Efq7dzkDuasbuD01hdK+PnjKylIl/P4dv4aGEF9ZQWl/P0ItLdb4YmInf/wgYHqBMxu1evMmKqen4Tt3LnWV1XWYqHsvX6Ly0SNrfUyPOeYVOPuW0LUNTJ+uZUNDqUFZCRrqnti8WNiaub6OzdFReM+cybkrcT1g9n2y01qXbmvw8mWU3r0Lc8B2/RiTbmD2sHywsYF4OAz/hQsWUnrIJmDGdlYaUN2uTU2p01OdxYkEkEhYmwdGPI7dp0+x8+QJCOgAaKKVj44i0NhoNS7zidnIzfFx6AsLBMzcTIi+f4/13l5lZbtly2KMf/qE1fZ2dZQNzGhg5PVr1SwFc+kSSrq74Skqymlh5iZDoKHBdnVOD+Su3JHOBPRWV6N8bAze06dtgGr9e/YMO48fq+P+ujqUDg5aGxAEPGygCeH0u0f2BgMB85zCJmDJnTsoamsDPJ4/M96XL1jt7LS2uAj4F8BQaytKbt+2bZjqb9/i18CABepaQMf55Bgf/O8/ax5jK8e3TkDhN0pAAgoFhHE2kIBCAWGcDSSgUEAYZwMJKBQQxtlAAgoFhHE2kIBCAWGcDSSgUEAYZwMJKBQQxtlAAgoFhHE2kIBCAWGcDSSgUEAYZwMJKBQQxtlAIeBvlsyfb5fJM+4AAAAASUVORK5CYII=",
+      "wins": 0,
+      "losses": 0
+    },
+    {
+      "name": "Master Ready",
+      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAA/pJREFUeF7t2U1IFGEcBvBn1l33w/IrBSEM6pBe05uCSESkFyE6dQmFEAyiVBQUEg8KCkYQCBIkEdQlgg6hJxEiO0SeBKVDLUFRqfm9zn45Me+6087ubJB/CGSePe2OPrD722fe+c+72temJgN8HFlAI+CR7VSQgDI/Agr9CEhAqYAwzzWQgEIBYZwNJKBQQBhnAwkoFBDG2UACCgWEcTaQgEIBYZwNJKBQQBhnAwkoFBDG2UACCgWEcTaQgEIBYZwNJKBQQBhnAwkoFBDG2cDjBniyowMnrl+H5vPlvHVjbw9bDx8iMjOT92Odun8f/vp6x78nwmH8vHFDSPJv8f/ewL8B4uAAe69eYevBA8dP4autRfnwMAqqqgjo1EBTJba0hLVbtxyBiq5eRXFnJ7RAgID5AJNra9gcGUF0cTEHqezePQQvXgQ0jYD5AI1oFDvT09h9/tyGpIVCqJychPfs2byLlGvXQBMNBQXQvF6Fsz83h43hYRtUsLkZJT098BQXq+PG/j60YND2P64FTH77BhQWoqCiQoEkPn/GalcXjEjEAiru6sKJa9cUNAwDseVlFNbUpF4fPlwLaH5wIxaD7/x5RXGwvY2tiQnsz89bOJnji6Hr0N+8QaC52TYOuRowtrKC0JUrKbBkErsvXmB7clK9zB5fzAuNPj+PUFsbAdUpGw4jMjuLk+3t0Px+hRb98AHr3d3qefb4Ev/4Efq7dzkDuasbuD01hdK+PnjKylIl/P4dv4aGEF9ZQWl/P0ItLdb4YmInf/wgYHqBMxu1evMmKqen4Tt3LnWV1XWYqHsvX6Ly0SNrfUyPOeYVOPuW0LUNTJ+uZUNDqUFZCRrqnti8WNiaub6OzdFReM+cybkrcT1g9n2y01qXbmvw8mWU3r0Lc8B2/RiTbmD2sHywsYF4OAz/hQsWUnrIJmDGdlYaUN2uTU2p01OdxYkEkEhYmwdGPI7dp0+x8+QJCOgAaKKVj44i0NhoNS7zidnIzfFx6AsLBMzcTIi+f4/13l5lZbtly2KMf/qE1fZ2dZQNzGhg5PVr1SwFc+kSSrq74Skqymlh5iZDoKHBdnVOD+Su3JHOBPRWV6N8bAze06dtgGr9e/YMO48fq+P+ujqUDg5aGxAEPGygCeH0u0f2BgMB85zCJmDJnTsoamsDPJ4/M96XL1jt7LS2uAj4F8BQaytKbt+2bZjqb9/i18CABepaQMf55Bgf/O8/ax5jK8e3TkDhN0pAAgoFhHE2kIBCAWGcDSSgUEAYZwMJKBQQxtlAAgoFhHE2kIBCAWGcDSSgUEAYZwMJKBQQxtlAAgoFhHE2kIBCAWGcDSSgUEAYZwMJKBQQxtlAIeBvlsyfb5fJM+4AAAAASUVORK5CYII=",
+      "wins": 0,
+      "losses": 0
+    },
+    {
+      "name": "Low Taper Team",
+      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAAW5JREFUeF7t2rFNAmEAhuGf6Ag6jZUD2Fk5jVu4hImFA1g5ArWVlSYWxg6DCSXdz2sE9aG+j3DPvblLgMX11XI9vHYWWADc2W4zBNj8AEY/gACrQNy7BwKMAnGuQIBRIM4VCDAKxLkCAUaBOFcgwCgQ5woEGAXiXIEAo0CcKxBgFIhzBQKMAnGuQIBRIM4VCDAKxLkCfzvg+eXpOLs4GUfHi82pfK7W4/H+dTzcvsRT+5n53gsEGC80QID7/YOlAhWowNKAp3DRO4S/+LoHxisIEKCHSGnAQ6ToeYhEPYAAu0B8B/dAgFEgzhX41wBnz+f9bTXubp7H0/Jjdvotxx9cgbNnBXDrRyWAkwLbXyZMzse/L3AW7NCO3/s98NBAZj8PwFmxreMBAowCca5AgFEgzhUIMArEuQIBRoE4VyDAKBDnCgQYBeJcgQCjQJwrEGAUiHMFAowCca5AgFEgzhUIMArEuQIBRoE4V2AE/ALwrqXAAdaIGQAAAABJRU5ErkJggg==",
+      "wins": 0,
+      "losses": 0
+    },
+    {
+      "name": "Torrent Surge",
+      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAAWdJREFUeF7t2iFKBGEAhuF/UXBR72I1mCwGYbsX8Bhexy4YLCaD1WuYVVZQVtBiMswr7C48299l5vk/Jgwzu7x6Xg2/yQIzgJPtvkOAzQ9g9AMIsArE3jMQYBSIuQUCjAIxt0CAUSDmFggwCsTcAgFGgZhbIMAoEHMLBBgFYm6BAKNAzC0QYBSIuQUCjAIxt0CAUSDmFrjNgMdH83Fxfjjme7N0G8v31bi+fRmPT8v0P1PitS4Q4JQj+9UABLi5HxctTg/G2cn+2N35OaWPzzHuHt7Gzf1rPLb/zdf6DPzrVgDGgwYIMArE3AIBRoGYWyDAKBBzCwQYBWJugQCjQMwtEGAUiLkFAowCMbdAgFEg5hYYAbcl39hX+gC3RSBepwUCjAIxt0CAUSDmFggwCsTcAgFGgZhbIMAoEHMLBBgFYm6BAKNAzC0QYBSIuQUCjAIxt0CAUSDmFggwCsTcAgFGgZhbYAT8Aku3nHC4m7j0AAAAAElFTkSuQmCC",
+      "wins": 0,
+      "losses": 0
+    },
+    {
+      "name": "Los Diablo",
+      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAAW5JREFUeF7t2rFNAmEAhuGf6Ag6jZUD2Fk5jVu4hImFA1g5ArWVlSYWxg6DCSXdz2sE9aG+j3DPvblLgMX11XI9vHYWWADc2W4zBNj8AEY/gACrQNy7BwKMAnGuQIBRIM4VCDAKxLkCAUaBOFcgwCgQ5woEGAXiXIEAo0CcKxBgFIhzBQKMAnGuQIBRIM4VCDAKxLkCfzvg+eXpOLs4GUfHi82pfK7W4/H+dTzcvsRT+5n53gsEGC80QID7/YOlAhWowNKAp3DRO4S/+LoHxisIEKCHSGnAQ6ToeYhEPYAAu0B8B/dAgFEgzhX41wBnz+f9bTXubp7H0/Jjdvotxx9cgbNnBXDrRyWAkwLbXyZMzse/L3AW7NCO3/s98NBAZj8PwFmxreMBAowCca5AgFEgzhUIMArEuQIBRoE4VyDAKBDnCgQYBeJcgQCjQJwrEGAUiHMFAowCca5AgFEgzhUIMArEuQIBRoE4V2AE/ALwrqXAAdaIGQAAAABJRU5ErkJggg==",
+      "wins": 0,
+      "losses": 0
+    },
+    {
+      "name": "Chills",
+      "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAABF9JREFUeF7t2XtMjWEcB/Dv6VQnEkI3l8JpRBFGjUlDaMxlbmPL1vzBDJtMwx/86R8mWzYz5vZHm3uuc5ktQlhGJbkUuijHqVNSpzqqY8/ZOjk69J7ze9vT+L1/P9/nvM/n/b3P8z7P0STe3WUFX24LaBjQbTtbkAFpfgxI9GNABqQKEPM8BzIgUYAY5wpkQKIAMc4VyIBEAWKcK5ABiQLEOFcgAxIFiHGuQAYkChDjXIEMSBQgxrkCGZAoQIxzBTIgUYAY5wpkQKIAMc4VyIBEAWKcK/BfAhyiG4CloTMQMyQCAT4D4KP1hgYaWGGFpa0VxpY6PDEW4UrZY1S3fCMOXZ14r6jAPlodksPnY27IFPh6+nQ7ssbWZlwrz8Hpkjvdtu3pBtIBQ30DsSViGaL8R9qqTenVbm3HfUM+0osy0dTWojSmejupgKLy9kQnYdIgvUt4HQqt1jZcLc/BsXc3VIdR2qFUwJTxK5AQMgUeGg/7/Yr5rrq5HtlfC3D/Sx7e1VcgepDe1m56wPgur3hNSz32F55DnqlE6ZhVbScNcOrgsdgeuRL+3v0c8PJNH3Cg8LzTRWJOyGSsD0/EYF3/zozVipufn+Hwm0xVYZR2Jg1QzHsLh8VAo+mc90obDdiXn4Gyxq9/vP/k8AVYERoHTw+tvY3IpTw7ImUulAaYHrsV4X5D7QhiPrtc+hAnim/99eGP6T8cO6PWoI+nDpXmahTUfkSO8bXtVZdxSQEUc1pq5GqHV7HO0oBDRZfw1Fgkw8Ht35QCODdkMjZHLIVYhTuuSnMN9r48hc/marcHIyMoBXBV2Cwk6RPg7eFlH7OY9zbmpMkwIP2mFMB1+nlYHRbvsBAwoAvPkQFdwHLW1NkcaGiqxb6CDGmrqbtDkvIKxwaMw7ZxyzHwl4/o7z/MSH+TiWxDQbdjOTB1I8QeuqrJhLffyvHIWPh/7UTE6psWswlhvkEufwc628HUWhpwsPACcmvedouvdgMpFSgGIT6G44MnOhwiKNmJ7J6wFnFBExxyr+o+ITX3qNo2ivqTBhgfFI3NEUvg59VX8V543egELA+Lsx20dlyW9lZkfLiHs5+yFA1Y7UbSAMVAdkSuwuzgSV1OY8SC8sCQj3tVL2z74pmBUUgcNg3R/nqHTx/Rx/v6Cux8flzKPlj8vlRAsRCIV3mUX7Bb54HiZPpk8S3cqHiqdmEp7k8qoLhLgSiOtcQhgSsn0pb2H7hYmo0zJXcVD7YnGkoHFIMSq/KGMYtsr7NO27m9czZgceD6pcmEsx+zcLsytydMXOqzVwB23LGoxsUjptuO+AN0A+Gt9bT/K9fcZkGV2YQsQx6ulz+RNuf9rturAF169L2kMQMSHwQDMiBRgBjnCmRAogAxzhXIgEQBYpwrkAGJAsQ4VyADEgWIca5ABiQKEONcgQxIFCDGuQIZkChAjHMFMiBRgBjnCmRAogAxzhXIgEQBYpwrkAGJAsQ4VyADEgWI8Z/YlQOPO4N7iQAAAABJRU5ErkJggg==",
+      "wins": 0,
+      "losses": 0
+    }
+  ],
+  "swissMatches": {
+    "0-0-1": {
+      "team1": "Exiled Kingz",
+      "team2": "Dahlia Blossoms",
+      "winner": null,
+      "loser": null
+    }
+  },
+  "doubleMatches": {
+    "A-UQ-1": {
+      "team1": null,
+      "team2": null,
+      "winner": null,
+      "loser": null,
+      "score1": null,
+      "score2": null
+    },
+    "A-UQ-2": {
+      "team1": null,
+      "team2": null,
+      "winner": null,
+      "loser": null,
+      "score1": null,
+      "score2": null
+    },
+    "A-UQ-3": {
+      "team1": null,
+      "team2": null,
+      "winner": null,
+      "loser": null,
+      "score1": null,
+      "score2": null
+    },
+    "A-UQ-4": {
+      "team1": null,
+      "team2": null,
+      "winner": null,
+      "loser": null,
+      "score1": null,
+      "score2": null
+    },
+    "A-US-1": {
+      "team1": null,
+      "team2": null,
+      "winner": null,
+      "loser": null,
+      "score1": null,
+      "score2": null
+    },
+    "A-US-2": {
+      "team1": null,
+      "team2": null,
+      "winner": null,
+      "loser": null,
+      "score1": null,
+      "score2": null
+    },
+    "A-LQ-1": {
+      "team1": null,
+      "team2": null,
+      "winner": null,
+      "loser": null,
+      "score1": null,
+      "score2": null
+    },
+    "A-LQ-2": {
+      "team1": null,
+      "team2": null,
+      "winner": null,
+      "loser": null,
+      "score1": null,
+      "score2": null
+    },
+    "A-LS-1": {
+      "team1": null,
+      "team2": null,
+      "winner": null,
+      "loser": null,
+      "score1": null,
+      "score2": null
+    },
+    "A-LS-2": {
+      "team1": null,
+      "team2": null,
+      "winner": null,
+      "loser": null,
+      "score1": null,
+      "score2": null
+    },
+    "B-UQ-1": {
+      "team1": null,
+      "team2": null,
+      "winner": null,
+      "loser": null,
+      "score1": null,
+      "score2": null
+    },
+    "B-UQ-2": {
+      "team1": null,
+      "team2": null,
+      "winner": null,
+      "loser": null,
+      "score1": null,
+      "score2": null
+    },
+    "B-UQ-3": {
+      "team1": null,
+      "team2": null,
+      "winner": null,
+      "loser": null,
+      "score1": null,
+      "score2": null
+    },
+    "B-UQ-4": {
+      "team1": null,
+      "team2": null,
+      "winner": null,
+      "loser": null,
+      "score1": null,
+      "score2": null
+    },
+    "B-US-1": {
+      "team1": null,
+      "team2": null,
+      "winner": null,
+      "loser": null,
+      "score1": null,
+      "score2": null
+    },
+    "B-US-2": {
+      "team1": null,
+      "team2": null,
+      "winner": null,
+      "loser": null,
+      "score1": null,
+      "score2": null
+    },
+    "B-LQ-1": {
+      "team1": null,
+      "team2": null,
+      "winner": null,
+      "loser": null,
+      "score1": null,
+      "score2": null
+    },
+    "B-LQ-2": {
+      "team1": null,
+      "team2": null,
+      "winner": null,
+      "loser": null,
+      "score1": null,
+      "score2": null
+    },
+    "B-LS-1": {
+      "team1": null,
+      "team2": null,
+      "winner": null,
+      "loser": null,
+      "score1": null,
+      "score2": null
+    },
+    "B-LS-2": {
+      "team1": null,
+      "team2": null,
+      "winner": null,
+      "loser": null,
+      "score1": null,
+      "score2": null
+    }
+  },
+  "singleMatches": {},
+  "teamRecords": {
+    "Exiled Kingz": {
+      "wins": 0,
+      "losses": 0
+    },
+    "Dahlia Blossoms": {
+      "wins": 0,
+      "losses": 0
+    },
+    "Torrent Zero": {
+      "wins": 0,
+      "losses": 0
+    },
+    "AbyssRL": {
+      "wins": 0,
+      "losses": 0
+    },
+    "Placeholder": {
+      "wins": 0,
+      "losses": 0
+    },
+    "Team Echelon": {
+      "wins": 0,
+      "losses": 0
+    },
+    "Iconic": {
+      "wins": 0,
+      "losses": 0
+    },
+    "Bonne Nuit": {
+      "wins": 0,
+      "losses": 0
+    },
+    "A.D.A": {
+      "wins": 0,
+      "losses": 0
+    },
+    "Red 3!": {
+      "wins": 0,
+      "losses": 0
+    },
+    "Mizzou Club Gold": {
+      "wins": 0,
+      "losses": 0
+    },
+    "Master Ready": {
+      "wins": 0,
+      "losses": 0
+    },
+    "Low Taper Team": {
+      "wins": 0,
+      "losses": 0
+    },
+    "Torrent Surge": {
+      "wins": 0,
+      "losses": 0
+    },
+    "Los Diablo": {
+      "wins": 0,
+      "losses": 0
+    },
+    "Chills": {
+      "wins": 0,
+      "losses": 0
+    }
+  },
+  "currentTab": "swiss",
+  "DE": {
+    "selected": [],
+    "qualified": {
+      "A": {
+        "upper": [],
+        "lower": []
+      },
+      "B": {
+        "upper": [],
+        "lower": []
+      }
+    }
+  },
+  "SE": {
+    "selected": []
+  },
+  "timestamp": "2025-08-27T08:10:46.459Z"
+}

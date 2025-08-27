@@ -1,0 +1,858 @@
+#Team100,
+#Team200,
+#Team300,
+#Team400,
+#Team500,
+#Team600,
+#Team700,
+#Team800,
+#Team900,
+#Team1000,
+#Team1100,
+#Team1200,
+#Team1300,
+#Team1400,
+#Team1500,
+#Team1600,
+#Team110,
+#Team210,
+#Team310,
+#Team410,
+#Team510,
+#Team610,
+#Team710,
+#Team810,
+#Team101,
+#Team201,
+#Team301,
+#Team401,
+#Team501,
+#Team601,
+#Team701,
+#Team801,
+#Team120,
+#Team220,
+#Team320,
+#Team420,
+#Team111,
+#Team211,
+#Team311,
+#Team411,
+#Team511,
+#Team611,
+#Team711,
+#Team811,
+#Team102,
+#Team202,
+#Team302,
+#Team402,
+#Qualified1,
+#Qualified2,
+#Team121,
+#Team221,
+#Team321,
+#Team421,
+#Team521,
+#Team621,
+#Team112,
+#Team212,
+#Team312,
+#Team412,
+#Team512,
+#Team612,
+#Eliminated1,
+#Eliminated2,
+#Qualified3,
+#Qualified4,
+#Qualified5,
+#Eliminated3,
+#Eliminated4,
+#Eliminated5,
+#Team122,
+#Team222,
+#Team322,
+#Team422,
+#Team522,
+#Team622,
+#Qualified6,
+#Qualified7,
+#Qualified8,
+#Eliminated6,
+#Eliminated7,
+#Eliminated8 {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  background-size: cover;
+}
+
+#Background {
+  height: 1080px;
+  width: 1920px;
+  position: absolute;
+  background-size: cover;
+  background-image: url(Background.png);
+  top: 0px;
+  left: 0px;
+}
+
+#SwissBracket {
+  height: 1080px;
+  width: 1920px;
+  position: absolute;
+  background-size: cover;
+  background-image: url(SwissBracket.png);
+  top: 0px;
+  left: 0px;
+}
+
+#DoubleBracket {
+  height: 1080px;
+  width: 1920px;
+  position: absolute;
+  background-size: cover;
+  background-image: url(DoubleBracket.png);
+  top: 0px;
+  left: 0px;
+}
+
+#SingleBracket {
+  height: 1080px;
+  width: 1920px;
+  position: absolute;
+  background-size: cover;
+  background-image: url(SingleBracket.png);
+  top: 0px;
+  left: 0px;
+}
+
+#SwissBracketStuff,
+#DoubleBracketStuff,
+#SingleBracketStuff {
+  visibility: hidden;
+}
+
+#Team100 {
+  left: 148px;
+  top: 280px;
+}
+#Team200 {
+  left: 281px;
+  top: 280px;
+}
+#Team300 {
+  left: 148px;
+  top: 370px;
+}
+#Team400 {
+  left: 281px;
+  top: 370px;
+}
+#Team500 {
+  left: 148px;
+  top: 460px;
+}
+#Team600 {
+  left: 281px;
+  top: 460px;
+}
+#Team700 {
+  left: 148px;
+  top: 550px;
+}
+#Team800 {
+  left: 281px;
+  top: 550px;
+}
+#Team900 {
+  left: 148px;
+  top: 640px;
+}
+#Team1000 {
+  left: 281px;
+  top: 640px;
+}
+#Team1100 {
+  left: 148px;
+  top: 730px;
+}
+#Team1200 {
+  left: 281px;
+  top: 730px;
+}
+#Team1300 {
+  left: 148px;
+  top: 820px;
+}
+#Team1400 {
+  left: 281px;
+  top: 820px;
+}
+#Team1500 {
+  left: 148px;
+  top: 910px;
+}
+#Team1600 {
+  left: 281px;
+  top: 910px;
+}
+
+#Team110 {
+  left: 437px;
+  top: 280px;
+}
+#Team210 {
+  left: 568px;
+  top: 280px;
+}
+#Team310 {
+  left: 437px;
+  top: 359px;
+}
+#Team410 {
+  left: 568px;
+  top: 359px;
+}
+#Team510 {
+  left: 437px;
+  top: 441px;
+}
+#Team610 {
+  left: 568px;
+  top: 441px;
+}
+#Team710 {
+  left: 437px;
+  top: 519px;
+}
+#Team810 {
+  left: 568px;
+  top: 519px;
+}
+#Team101 {
+  left: 437px;
+  top: 668px;
+}
+#Team201 {
+  left: 568px;
+  top: 668px;
+}
+#Team301 {
+  left: 437px;
+  top: 749px;
+}
+#Team401 {
+  left: 568px;
+  top: 749px;
+}
+#Team501 {
+  left: 437px;
+  top: 829px;
+}
+#Team601 {
+  left: 568px;
+  top: 829px;
+}
+#Team701 {
+  left: 437px;
+  top: 909px;
+}
+#Team801 {
+  left: 568px;
+  top: 909px;
+}
+
+#Team120 {
+  left: 726px;
+  top: 280px;
+}
+#Team220 {
+  left: 858px;
+  top: 280px;
+}
+#Team320 {
+  left: 726px;
+  top: 360px;
+}
+#Team420 {
+  left: 858px;
+  top: 360px;
+}
+#Team111 {
+  left: 726px;
+  top: 486px;
+}
+#Team211 {
+  left: 858px;
+  top: 486px;
+}
+#Team311 {
+  left: 726px;
+  top: 566px;
+}
+#Team411 {
+  left: 858px;
+  top: 566px;
+}
+#Team511 {
+  left: 726px;
+  top: 646px;
+}
+#Team611 {
+  left: 858px;
+  top: 646px;
+}
+#Team711 {
+  left: 726px;
+  top: 726px;
+}
+#Team811 {
+  left: 858px;
+  top: 726px;
+}
+#Team102 {
+  left: 726px;
+  top: 854px;
+}
+#Team202 {
+  left: 858px;
+  top: 854px;
+}
+#Team302 {
+  left: 726px;
+  top: 934px;
+}
+#Team402 {
+  left: 858px;
+  top: 934px;
+}
+
+#Qualified1 {
+  left: 1033px;
+  top: 242px;
+}
+#Qualified2 {
+  left: 1131px;
+  top: 242px;
+}
+#Team121 {
+  left: 1015px;
+  top: 364px;
+}
+#Team221 {
+  left: 1146px;
+  top: 364px;
+}
+#Team321 {
+  left: 1015px;
+  top: 445px;
+}
+#Team421 {
+  left: 1146px;
+  top: 445px;
+}
+#Team521 {
+  left: 1015px;
+  top: 525px;
+}
+#Team621 {
+  left: 1146px;
+  top: 525px;
+}
+#Team112 {
+  left: 1015px;
+  top: 663px;
+}
+#Team212 {
+  left: 1146px;
+  top: 663px;
+}
+#Team312 {
+  left: 1015px;
+  top: 743px;
+}
+#Team412 {
+  left: 1146px;
+  top: 743px;
+}
+#Team512 {
+  left: 1015px;
+  top: 824px;
+}
+#Team612 {
+  left: 1146px;
+  top: 824px;
+}
+#Eliminated1 {
+  left: 1033px;
+  top: 948px;
+}
+#Eliminated2 {
+  left: 1131px;
+  top: 948px;
+}
+
+#Team122 {
+  left: 1302px;
+  top: 524px;
+}
+#Team222 {
+  left: 1435px;
+  top: 524px;
+}
+#Team322 {
+  left: 1302px;
+  top: 605px;
+}
+#Team422 {
+  left: 1435px;
+  top: 605px;
+}
+#Team522 {
+  left: 1302px;
+  top: 685px;
+}
+#Team622 {
+  left: 1435px;
+  top: 685px;
+}
+#Qualified3 {
+  left: 1294px;
+  top: 387px;
+}
+#Qualified4 {
+  left: 1368px;
+  top: 387px;
+}
+#Qualified5 {
+  left: 1441px;
+  top: 387px;
+}
+#Eliminated3 {
+  left: 1294px;
+  top: 806px;
+}
+#Eliminated4 {
+  left: 1368px;
+  top: 806px;
+}
+#Eliminated5 {
+  left: 1441px;
+  top: 806px;
+}
+
+#Qualified6 {
+  left: 1577px;
+  top: 524px;
+}
+#Qualified7 {
+  left: 1652px;
+  top: 524px;
+}
+#Qualified8 {
+  left: 1727px;
+  top: 524px;
+}
+#Eliminated6 {
+  left: 1577px;
+  top: 663px;
+}
+#Eliminated7 {
+  left: 1652px;
+  top: 663px;
+}
+#Eliminated8 {
+  left: 1727px;
+  top: 663px;
+}
+
+.team {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 193px;
+  height: 30px;
+  padding-right: 5px;
+  font-family: monospace, sans-serif;
+}
+
+.team-logo {
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
+
+.team-name {
+  font-size: 15px;
+  line-height: 30px;
+  height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: white;
+  font-family: monospace, sans-serif;
+  flex-grow: 1;
+}
+
+.team-score {
+  position: absolute;
+  top: 50%;
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  font-family: monospace, sans-serif;
+  transform: translate3d(1041%, -46%, 0px);
+}
+
+.teams {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 320px;
+  height: 30px;
+  padding-right: 5px;
+  font-family: monospace, sans-serif;
+}
+
+.team-logos {
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
+
+.team-names {
+  font-size: 30px;
+  line-height: 30px;
+  height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: white;
+  font-family: monospace, sans-serif;
+  flex-grow: 1;
+}
+
+.team-scores {
+  position: absolute;
+  top: 50%;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  font-family: monospace, sans-serif;
+  transform: translate3d(1249%, -46%, 0px);
+}
+
+#Group1Team2UQ > .team-score,
+#Group1Team4UQ > .team-score,
+#Group1Team6UQ > .team-score,
+#Group1Team8UQ > .team-score,
+#Group1Team2LQ > .team-score,
+#Group1Team4LQ > .team-score,
+#Group1Team2US > .team-score,
+#Group1Team4US > .team-score,
+#Group1Team2LS > .team-score,
+#Group1Team4LS > .team-score,
+#Group2Team2UQ > .team-score,
+#Group2Team4UQ > .team-score,
+#Group2Team6UQ > .team-score,
+#Group2Team8UQ > .team-score,
+#Group2Team2LQ > .team-score,
+#Group2Team4LQ > .team-score,
+#Group2Team2US > .team-score,
+#Group2Team4US > .team-score,
+#Group2Team2LS > .team-score,
+#Group2Team4LS > .team-score {
+  transform: translate3d(1023%, -46%, 0px);
+}
+
+#Team2Q > .team-scores,
+#Team4Q > .team-scores,
+#Team6Q > .team-scores,
+#Team8Q > .team-scores,
+#Team2S > .team-scores,
+#Team4S > .team-scores,
+#Team2GF > .team-scores {
+  transform: translate3d(1223%, -46%, 0px);
+}
+
+#Group1Team1UQ {
+  top: 260px;
+  left: 62px;
+}
+#Group1Team2UQ {
+  top: 299px;
+  left: 62px;
+}
+#Group1Team3UQ {
+  top: 358px;
+  left: 62px;
+}
+#Group1Team4UQ {
+  top: 397px;
+  left: 62px;
+}
+#Group1Team5UQ {
+  top: 454px;
+  left: 62px;
+}
+#Group1Team6UQ {
+  top: 493px;
+  left: 62px;
+}
+#Group1Team7UQ {
+  top: 552px;
+  left: 62px;
+}
+#Group1Team8UQ {
+  top: 591px;
+  left: 62px;
+}
+#Group1Team1LQ {
+  top: 786px;
+  left: 62px;
+}
+#Group1Team2LQ {
+  top: 825px;
+  left: 62px;
+}
+#Group1Team3LQ {
+  top: 884px;
+  left: 62px;
+}
+#Group1Team4LQ {
+  top: 922px;
+  left: 62px;
+}
+#Group1Team1US {
+  top: 307px;
+  left: 378px;
+}
+#Group1Team2US {
+  top: 346px;
+  left: 378px;
+}
+#Group1Team3US {
+  top: 502px;
+  left: 378px;
+}
+#Group1Team4US {
+  top: 541px;
+  left: 378px;
+}
+#Group1Team1LS {
+  top: 785px;
+  left: 378px;
+}
+#Group1Team2LS {
+  top: 825px;
+  left: 378px;
+}
+#Group1Team3LS {
+  top: 884px;
+  left: 378px;
+}
+#Group1Team4LS {
+  top: 923px;
+  left: 378px;
+}
+#Group1Qualified1 {
+  top: 328px;
+  left: 682px;
+}
+#Group1Qualified2 {
+  top: 521px;
+  left: 682px;
+}
+#Group1Qualified3 {
+  top: 806px;
+  left: 682px;
+}
+#Group1Qualified4 {
+  top: 904px;
+  left: 682px;
+}
+
+#Group2Team1UQ {
+  top: 260px;
+  left: 1018px;
+}
+#Group2Team2UQ {
+  top: 299px;
+  left: 1018px;
+}
+#Group2Team3UQ {
+  top: 358px;
+  left: 1018px;
+}
+#Group2Team4UQ {
+  top: 397px;
+  left: 1018px;
+}
+#Group2Team5UQ {
+  top: 454px;
+  left: 1018px;
+}
+#Group2Team6UQ {
+  top: 493px;
+  left: 1018px;
+}
+#Group2Team7UQ {
+  top: 552px;
+  left: 1018px;
+}
+#Group2Team8UQ {
+  top: 591px;
+  left: 1018px;
+}
+#Group2Team1LQ {
+  top: 786px;
+  left: 1018px;
+}
+#Group2Team2LQ {
+  top: 825px;
+  left: 1018px;
+}
+#Group2Team3LQ {
+  top: 884px;
+  left: 1018px;
+}
+#Group2Team4LQ {
+  top: 922px;
+  left: 1018px;
+}
+#Group2Team1US {
+  top: 307px;
+  left: 1333px;
+}
+#Group2Team2US {
+  top: 346px;
+  left: 1333px;
+}
+#Group2Team3US {
+  top: 502px;
+  left: 1333px;
+}
+#Group2Team4US {
+  top: 541px;
+  left: 1333px;
+}
+#Group2Team1LS {
+  top: 785px;
+  left: 1333px;
+}
+#Group2Team2LS {
+  top: 825px;
+  left: 1333px;
+}
+#Group2Team3LS {
+  top: 884px;
+  left: 1333px;
+}
+#Group2Team4LS {
+  top: 923px;
+  left: 1333px;
+}
+#Group2Qualified1 {
+  top: 328px;
+  left: 1639px;
+}
+#Group2Qualified2 {
+  top: 521px;
+  left: 1639px;
+}
+#Group2Qualified3 {
+  top: 806px;
+  left: 1639px;
+}
+#Group2Qualified4 {
+  top: 904px;
+  left: 1639px;
+}
+
+#Team1Q {
+  top: 397px;
+  left: 254px;
+}
+#Team2Q {
+  top: 464px;
+  left: 254px;
+}
+#Team3Q {
+  top: 563px;
+  left: 254px;
+}
+#Team4Q {
+  top: 630px;
+  left: 254px;
+}
+#Team5Q {
+  top: 727px;
+  left: 254px;
+}
+#Team6Q {
+  top: 794px;
+  left: 254px;
+}
+#Team7Q {
+  top: 894px;
+  left: 254px;
+}
+#Team8Q {
+  top: 960px;
+  left: 254px;
+}
+#Team1S {
+  top: 478px;
+  left: 792px;
+}
+#Team2S {
+  top: 545px;
+  left: 792px;
+}
+#Team3S {
+  top: 808px;
+  left: 792px;
+}
+#Team4S {
+  top: 874px;
+  left: 792px;
+}
+#Team1GF {
+  top: 642px;
+  left: 1323px;
+}
+#Team2GF {
+  top: 709px;
+  left: 1323px;
+}
+
+#TitleTop {
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Arial Black", Arial, sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#TitleBottom {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 36px;
+  font-weight: bold;
+  color: #dcc776;
+  text-align: center;
+  font-family: "Arial Black", Arial, sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}

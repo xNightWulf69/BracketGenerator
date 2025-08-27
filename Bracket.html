@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Bracket Generator</title>
+    <link rel="stylesheet" href="Assets/BracketStyle.css">
+    <link rel="icon" type="image/png" href="Assets/icon.png">
+    <script src="Assets/BracketScript.js"></script>
+  </head>
+  <body>
+    <div id="Background"></div>
+    <div id="Title">
+      <div id="TitleTop">Tournament Title Top</div>
+      <div id="TitleBottom">Tournament Title Bottom</div>
+    </div>
+    <div id="SwissBracketStuff">
+      <div id="SwissBracket"></div>
+      <div id="Team100"></div>
+      <div id="Team200"></div>
+      <div id="Team300"></div>
+      <div id="Team400"></div>
+      <div id="Team500"></div>
+      <div id="Team600"></div>
+      <div id="Team700"></div>
+      <div id="Team800"></div>
+      <div id="Team900"></div>
+      <div id="Team1000"></div>
+      <div id="Team1100"></div>
+      <div id="Team1200"></div>
+      <div id="Team1300"></div>
+      <div id="Team1400"></div>
+      <div id="Team1500"></div>
+      <div id="Team1600"></div>
+      <div id="Team110"></div>
+      <div id="Team210"></div>
+      <div id="Team310"></div>
+      <div id="Team410"></div>
+      <div id="Team510"></div>
+      <div id="Team610"></div>
+      <div id="Team710"></div>
+      <div id="Team810"></div>
+      <div id="Team101"></div>
+      <div id="Team201"></div>
+      <div id="Team301"></div>
+      <div id="Team401"></div>
+      <div id="Team501"></div>
+      <div id="Team601"></div>
+      <div id="Team701"></div>
+      <div id="Team801"></div>
+      <div id="Team120"></div>
+      <div id="Team220"></div>
+      <div id="Team320"></div>
+      <div id="Team420"></div>
+      <div id="Team111"></div>
+      <div id="Team211"></div>
+      <div id="Team311"></div>
+      <div id="Team411"></div>
+      <div id="Team511"></div>
+      <div id="Team611"></div>
+      <div id="Team711"></div>
+      <div id="Team811"></div>
+      <div id="Team102"></div>
+      <div id="Team202"></div>
+      <div id="Team302"></div>
+      <div id="Team402"></div>
+      <div id="Qualified1"></div>
+      <div id="Qualified2"></div>
+      <div id="Team121"></div>
+      <div id="Team221"></div>
+      <div id="Team321"></div>
+      <div id="Team421"></div>
+      <div id="Team521"></div>
+      <div id="Team621"></div>
+      <div id="Team112"></div>
+      <div id="Team212"></div>
+      <div id="Team312"></div>
+      <div id="Team412"></div>
+      <div id="Team512"></div>
+      <div id="Team612"></div>
+      <div id="Eliminated1"></div>
+      <div id="Eliminated2"></div>
+      <div id="Qualified3"></div>
+      <div id="Qualified4"></div>
+      <div id="Qualified5"></div>
+      <div id="Eliminated3"></div>
+      <div id="Eliminated4"></div>
+      <div id="Eliminated5"></div>
+      <div id="Team122"></div>
+      <div id="Team222"></div>
+      <div id="Team322"></div>
+      <div id="Team422"></div>
+      <div id="Team522"></div>
+      <div id="Team622"></div>
+      <div id="Qualified6"></div>
+      <div id="Qualified7"></div>
+      <div id="Qualified8"></div>
+      <div id="Eliminated6"></div>
+      <div id="Eliminated7"></div>
+      <div id="Eliminated8"></div>
+    </div>
+    <div id="DoubleBracketStuff">
+      <div id="DoubleBracket"></div>
+      <div id="Group1Team1UQ" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group1Team2UQ" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group1Team3UQ" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group1Team4UQ" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group1Team5UQ" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group1Team6UQ" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group1Team7UQ" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group1Team8UQ" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group1Team1LQ" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group1Team2LQ" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group1Team3LQ" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group1Team4LQ" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group1Team1US" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group1Team2US" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group1Team3US" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group1Team4US" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group1Team1LS" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group1Team2LS" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group1Team3LS" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group1Team4LS" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group1Qualified1" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+      </div>
+      <div id="Group1Qualified2" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+      </div>
+      <div id="Group1Qualified3" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+      </div>
+      <div id="Group1Qualified4" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+      </div>
+      <div id="Group2Team1UQ" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group2Team2UQ" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group2Team3UQ" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group2Team4UQ" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group2Team5UQ" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group2Team6UQ" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group2Team7UQ" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group2Team8UQ" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group2Team1LQ" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group2Team2LQ" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group2Team3LQ" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group2Team4LQ" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group2Team1US" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group2Team2US" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group2Team3US" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group2Team4US" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group2Team1LS" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group2Team2LS" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group2Team3LS" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group2Team4LS" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+        <div class="team-score"></div>
+      </div>
+      <div id="Group2Qualified1" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+      </div>
+      <div id="Group2Qualified2" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+      </div>
+      <div id="Group2Qualified3" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+      </div>
+      <div id="Group2Qualified4" class="team">
+        <div class="team-logo"></div>
+        <div class="team-name"></div>
+      </div>
+    </div>
+    <div id="SingleBracketStuff">
+      <div id="SingleBracket"></div>
+      <div id="Team1Q" class="teams">
+        <div class="team-logos"></div>
+        <div class="team-names"></div>
+        <div class="team-scores"></div>
+      </div>
+      <div id="Team2Q" class="teams">
+        <div class="team-logos"></div>
+        <div class="team-names"></div>
+        <div class="team-scores"></div>
+      </div>
+      <div id="Team3Q" class="teams">
+        <div class="team-logos"></div>
+        <div class="team-names"></div>
+        <div class="team-scores"></div>
+      </div>
+      <div id="Team4Q" class="teams">
+        <div class="team-logos"></div>
+        <div class="team-names"></div>
+        <div class="team-scores"></div>
+      </div>
+      <div id="Team5Q" class="teams">
+        <div class="team-logos"></div>
+        <div class="team-names"></div>
+        <div class="team-scores"></div>
+      </div>
+      <div id="Team6Q" class="teams">
+        <div class="team-logos"></div>
+        <div class="team-names"></div>
+        <div class="team-scores"></div>
+      </div>
+      <div id="Team7Q" class="teams">
+        <div class="team-logos"></div>
+        <div class="team-names"></div>
+        <div class="team-scores"></div>
+      </div>
+      <div id="Team8Q" class="teams">
+        <div class="team-logos"></div>
+        <div class="team-names"></div>
+        <div class="team-scores"></div>
+      </div>
+      <div id="Team1S" class="teams">
+        <div class="team-logos"></div>
+        <div class="team-names"></div>
+        <div class="team-scores"></div>
+      </div>
+      <div id="Team2S" class="teams">
+        <div class="team-logos"></div>
+        <div class="team-names"></div>
+        <div class="team-scores"></div>
+      </div>
+      <div id="Team3S" class="teams">
+        <div class="team-logos"></div>
+        <div class="team-names"></div>
+        <div class="team-scores"></div>
+      </div>
+      <div id="Team4S" class="teams">
+        <div class="team-logos"></div>
+        <div class="team-names"></div>
+        <div class="team-scores"></div>
+      </div>
+      <div id="Team1GF" class="teams">
+        <div class="team-logos"></div>
+        <div class="team-names"></div>
+        <div class="team-scores"></div>
+      </div>
+      <div id="Team2GF" class="teams">
+        <div class="team-logos"></div>
+        <div class="team-names"></div>
+        <div class="team-scores"></div>
+      </div>
+      <div id="Winner"></div>
+    </div>
+  </body>
+</html>
